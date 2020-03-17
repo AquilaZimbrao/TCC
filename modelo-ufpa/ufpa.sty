@@ -100,9 +100,9 @@
 \newcommand{\quadroname}{Quadro}
 \newcommand{\listofquadrosname}{Lista de Quadros}
 
-\newfloat[chapter]{quadro}{loq}{\quadroname}
-\newlistof{listofquadros}{loq}{\listofquadrosname}
-\newlistentry{quadro}{loq}{0}
+%\newfloat[chapter]{quadro}{loq}{\quadroname}
+%\newlistof{listofquadros}{loq}{\listofquadrosname}
+%\newlistentry{quadro}{loq}{0}
 
 % configurações para atender às regras da ABNT
 \counterwithout{quadro}{chapter}
@@ -159,10 +159,10 @@
 }
 
 %% Grafico
-\newcommand{\graficoname}{Gráfico}
-\newfloat[chapter]{grafico}{lof}{\graficoname}
-\newlistentry{grafico}{lof}{0}
-\counterwithout{grafico}{chapter}
+%\newcommand{\graficoname}{Gráfico}
+%\newfloat[chapter]{grafico}{lof}{\graficoname}
+%\newlistentry{grafico}{lof}{0}
+%\counterwithout{grafico}{chapter}
 \renewcommand{\cftgraficoname}{\graficoname\space} 
 \renewcommand*{\cftgraficoaftersnum}{\hfill--\hfill}
 
@@ -306,10 +306,9 @@
    \end{center}
    
    \begin{center}
-         \assinatura{{\imprimirorientador} Orientador - \imprimirtitulacaodoorientador.}
-         \assinatura{{\imprimircoorientador} Coorientador - \imprimirtitulacaodocoorientador.}
-         \assinatura{{\imprimirprimeiromembrodabanca} - \imprimirtitulacaodoprimeiromembro.}
-         \assinatura{{\imprimirsegundomembrodabanca} - \imprimirtitulacaodosegundomembro.}
+         \assinatura{{\imprimirorientador} (Orientador), \imprimirtitulacaodoorientador.}
+         \assinatura{{\imprimirprimeiromembrodabanca}, \imprimirtitulacaodoprimeiromembro.}
+         \assinatura{{\imprimirsegundomembrodabanca}, \imprimirtitulacaodosegundomembro.}
          
           \vspace*{\fill}
          
